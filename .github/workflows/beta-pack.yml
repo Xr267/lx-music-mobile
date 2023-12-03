@@ -1,7 +1,8 @@
 name: Build Beta
 
-on:
-  push:
+on: 
+  watch:
+    types: [started]  
     branches:
       - beta
 
